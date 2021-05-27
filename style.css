@@ -32,12 +32,6 @@ a{
     margin: 0 auto;
 }
 
-@media (max-width:750px) {
-    .longContainer {
-        width: 100vw;
-    }
-}
-
 .tableContainer{
     display: table;
 }
@@ -55,7 +49,7 @@ a{
 .avatar-info{
     text-align: center;
     padding: 5px;
-    border: 3px solid #DCDCDC;
+    padding-top: -10px;
     font-size: 13px;
 }
 
@@ -92,6 +86,10 @@ a{
         width: 100%;
         margin: 0 auto;
     }
+
+    .longContainer {
+        width: 100vw;
+    }
 }
 
 .main p{
@@ -110,6 +108,8 @@ a{
     color:white;
     font-size: 11px;
     height: 10%;
-    display: table-row;
-    width: 100%;
+}
+
+.footer footerRow{
+    display: table-row; 
 }
