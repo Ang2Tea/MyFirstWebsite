@@ -38,6 +38,10 @@ a{
     }
 }
 
+.tableContainer{
+    display: table;
+}
+
 .header{
     text-align: center;
     font-size: 36px;
@@ -66,7 +70,6 @@ a{
     color: white;
     background-color: rgba(105, 105, 105, 0.7);
     padding: 5px;
-    padding-bottom: 7vh;
 }
 .row{
     width: 98%;
@@ -103,9 +106,10 @@ a{
 .footer{
     background-color: black;
     text-align: right;
-    padding: 3px;
+    padding: 5px;
     color:white;
     font-size: 11px;
-    height: 7vh;
-    margin-top: -7vh;
+    height: 10%;
+    display: table-row;
+    width: 100%;
 }
